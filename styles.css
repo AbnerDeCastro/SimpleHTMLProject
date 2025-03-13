@@ -1,0 +1,75 @@
+/* Definindo o estilo do corpo */
+body {
+    background-color: #2a2974; /* Escolha a cor que preferir */
+    color: #ffffff; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2, p {
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Container Principal */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Estilo das seções de mira */
+.mira {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+}
+
+.mira img {
+    max-width: 200px;
+    max-height: 200px; /* Garantindo altura máxima */
+    margin: 20px auto; /* Centralizando a imagem */
+    display: block;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mira h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.mira p {
+    font-size: 16px;
+    color: #cccccc;
+    text-align: center;
+}
+
+/* Estilo para uma aparência unificada */
+.mira:nth-child(odd) {
+    background-color: #262626;
+}
