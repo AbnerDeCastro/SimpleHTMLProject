@@ -1,7 +1,7 @@
 # SimpleHTMLProject
 A simple HTML project made for study
 
-Projeto/
+Projeto/  
 ├── index.html  
 ├── style.css  
 └── miras/  
